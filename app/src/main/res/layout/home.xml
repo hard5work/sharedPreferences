@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center|top"
+    >
+
+    <TextView
+        android:id="@+id/text1"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:padding="20dp"
+        android:layout_margin="10dp"
+        android:text="@string/welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+    <Button
+        android:background="#651FFF"
+        android:id="@+id/logout"
+        android:text="@string/logout"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/test1"
+        android:text="@string/check"
+        android:textAllCaps="false"
+        android:background="#651fff"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:padding="10dp"
+        android:layout_margin="5dp"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/test2"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SharedPreferences</string>
+    <string name="welcome">You Have Successfully created Id</string>
+    <string name="logout">Logout</string>
+    <string name="check">Check Info</string>
+    <string name="login">Login</string>
+    <string name="enterUsername">Enter Username</string>
+    <string name="enterPassword">Enter Password</string>
+    <string name="haveAcc">Have no Account?</string>
+    <string name="signup">SignUp</string>
+    <string name="acc">Already have a Account?</string>
+</resources>
